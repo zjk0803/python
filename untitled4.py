@@ -74,4 +74,13 @@ def crawl_site(url):
             break
 crawl_site('http://example.python-scraping.com/view/-')
 
-
+def crawl_site(url,max_errors=5):
+    for page in itertools.count(1):
+        pg_url='{}{}'.format(url,page)
+        html=download(pg_url)
+        if html is None:
+            num_errors+=1
+            break
+        else:
+            num_errors=0
+crawl_site('http://example.python-scraping.com/view/-')
