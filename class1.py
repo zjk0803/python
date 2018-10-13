@@ -86,8 +86,3 @@ def crawl_site(url,max_errors=5):
 crawl_site('http://example.python-scraping.com/view/-')
 
 
-import re
-from chp1.advanced_link_crawler import download
-url='http://example.python-scraping.com/view/UnitedKingdom-239'
-html= download(url)
-re.findall(r'<td class="w2p_fw">(.*?)</td>',html)
