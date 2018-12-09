@@ -2,7 +2,7 @@
 """
 Created on Tue Oct  9 19:48:27 2018
 
-@author: 抖抖飞
+@author: pyer
 """
 import urllib.request
 from urllib.error import URLError,HTTPError,ContentTooShortError
