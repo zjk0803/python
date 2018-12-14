@@ -16,3 +16,5 @@ re.findall(r'<td class="w2p_fw">(.*?)</td>',html)
  '244,820 square kilometres'
  ]
 re.findall(r'<td class="w2p_fw">(.*?)</td>',html)[1]
+
+
