@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 11 13:05:07 2018
 
-@author: 抖抖飞
+@author: pyer
 """
 
 #class1 的环境下
