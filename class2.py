@@ -7,6 +7,7 @@ Created on Thu Oct 11 13:05:07 2018
 
 #class1 的环境下
 
+
 import re
 from class1.advanced_link_crawler import download
 url='http://example.python-scraping.com/view/UnitedKingdom-239'
