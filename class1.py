@@ -3,6 +3,7 @@
 Created on Tue Oct  9 19:48:27 2018
 
 
+
 @author: pyer
 """
 import urllib.request
