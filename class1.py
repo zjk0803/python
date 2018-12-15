@@ -66,6 +66,7 @@ def crawl_sitemap(url):
         html=download(link)
 crawl_sitemap('http://example.python-scraping.com/sitemap.xml')
 
+
 import itertools
 def crawl_site(url):
     for page in itertools.count(1):
