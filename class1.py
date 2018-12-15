@@ -86,10 +86,6 @@ def crawl_site(url,max_errors=5):
 crawl_site('http://example.python-scraping.com/view/-')
 
 
-
-
-
-
 import golb
 import os
 from PIL import Image
